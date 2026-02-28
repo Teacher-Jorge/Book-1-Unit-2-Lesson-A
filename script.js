@@ -31,7 +31,7 @@ input1.addEventListener('keyup', (e) => {
 })
 
 input2.addEventListener('keyup', (e) => {
-    if(input2.value === "he's") {
+    if(input2.value === "he's" || input2.value === "he is") {
         input2.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
@@ -40,7 +40,7 @@ input2.addEventListener('keyup', (e) => {
 })
 
 input3.addEventListener('keyup', (e) => {
-    if(input3.value === "He's") {
+    if(input3.value === "He's" || input3.value === "He is") {
         input3.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
@@ -54,12 +54,13 @@ input4.addEventListener('keyup', (e) => {
         input4.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
+        right3.style.visibility = 'visible'
         document.getElementById('input5').focus()
     }
 })
 
 input5.addEventListener('keyup', (e) => {
-    if(input5.value === "they're") {
+    if(input5.value === "they're" || input5.value === "they are") {
         input5.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
@@ -68,7 +69,7 @@ input5.addEventListener('keyup', (e) => {
 })
 
 input6.addEventListener('keyup', (e) => {
-    if(input6.value === "They're") {
+    if(input6.value === "They're" || input6.value === "They are") {
         input6.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
@@ -126,7 +127,7 @@ input11.addEventListener('keyup', (e) => {
 })
 
 input12.addEventListener('keyup', (e) => {
-    if(input12.value === "he's") {
+    if(input12.value === "he's" || input12.value === "he is") {
         input12.style.color = 'darkorange'
         const audio = document.getElementById('rightSound')
         audio.play()
